@@ -10,7 +10,8 @@ import './scripts/jsfiddle.js';
 import './scripts/postFilter.js';
 import './scripts/relatedPosts.js';
 import './scripts/serviceworker-registration.js';
-import './scripts/cookieconsent.js';
-import './scripts/disqus.js';
-import './scripts/piwik.js';
-import './scripts/ads.js';
+// Don't use these in 10kapart version
+// import './scripts/cookieconsent.js';
+// import './scripts/disqus.js';
+// import './scripts/piwik.js';
+// import './scripts/ads.js';

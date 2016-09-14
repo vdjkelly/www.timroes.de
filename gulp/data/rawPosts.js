@@ -53,6 +53,9 @@ export default function() {
 	}).filter(post => {
 		// Filter out draft articles if --production was specified when running gulp
 		return post.meta.status !== 'draft' || gutil.env.production === undefined;
+	}).filter(post => {
+		// Filter out only posts from the 10kapart series
+		return post.meta.series === '10kapart';
 	}).sort(function(a, b) {
 		return b.created - a.created;
 	});

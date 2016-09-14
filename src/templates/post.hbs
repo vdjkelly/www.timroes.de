@@ -9,13 +9,10 @@
 		<div id="post-history"></div>
 	{{/if}}
 
-	<noscript>
-		<style>.adsbygoogle{display:none}</style>
-	</noscript>
-	<ins class="adsbygoogle"
-			aria-hidden="true"
-			data-ad-client="{{config.adsense.adclient}}"
-			data-ad-slot="{{config.adsense.adslot}}"></ins>
+	<div class="hintbox">
+		This page just includes the 10k Apart posts for deployment in the contest infrastructure.
+		You can read this post (and all others) also on the real blog at: <a href="{{canonical}}" rel="noopener">www.timroes.de</a>
+	</div>
 
 	{{{post.content}}}
 
@@ -78,6 +75,10 @@
 
 <a name="comments"></a>
 <div id="disqus_thread" class="comments"></div>
+
+<div class="hintbox">
+	You can leave comments for this post on the real blog at: <a href="{{canonical}}">www.timroes.de</a>.
+</div>
 <script>
 	var disqus_config = function () {
 		this.page.url = '{{canonical}}';
