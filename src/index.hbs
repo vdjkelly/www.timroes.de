@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{config.blog.language}}" class="nojs">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width">
 	<meta name="theme-color" content="{{config.blog.theme_color}}">
 
@@ -33,7 +31,7 @@
 	{{> socialMediaHeaders}}
 </head>
 <body {{#if type_index}}class="home"{{/if}}>
-	<script>document.body.classList.add('fouf');setTimeout(function(){document.body.classList.remove('fouf')},400)</script>
+	<script>document.body.classList.add('fout');setTimeout(function(){document.body.classList.remove('fout')},400)</script>
 	<script src="/fonts.min.js" async></script>
 
 	{{#if type_index}}
@@ -51,7 +49,7 @@
 	{{else}}
 		<header role="banner" class="pageheader">
 			<a href="/" rel="home" aria-hidden="true">
-				<img src="/favicon60.png" srcset="/favicon120.png 2x, /favicon180.png 3x, /favicon60.png" aria-label="Back to home page">
+				<img src="/favicon60.png" srcset="/favicon120.png 2x, /favicon180.png 3x, /favicon60.png">
 			</a>
 			<div class="header-navigation">
 				<a href="/" class="header-home-link" aria-label="Back to home page" rel="home">{{config.blog.title}}</a>
