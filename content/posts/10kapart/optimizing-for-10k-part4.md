@@ -69,8 +69,8 @@ for your webpage, but don't set yourself a limit and enforce it by decreasing yo
 usability or making nonsense decisions.
 
 Since this is one of the articles, having a larger than 10k HTML, I will be hypocritical
-enough to split it up into two pages just for the sake of the contest (but leave the complete one page
-version on my blog).
+enough to split it up into multiple pages (despite the overhead due to the HTML frame)
+just for the sake of the contest (but leave the complete one page version on my blog).
 
 The Result
 ----------
